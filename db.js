@@ -2,7 +2,8 @@ require('dotenv').config();
 
 const mongoose = require("mongoose");
 
-var mongoDBURL = 'mongodb+srv://' + process.env.DB_USERNAME + ':' + process.env.DB_PASSWORD + '@cluster0.jbhicbq.mongodb.net/?retryWrites=true&w=majority'
+// var mongoDBURL = 'mongodb+srv://' + process.env.DB_USERNAME + ':' + process.env.DB_PASSWORD + '@cluster0.jbhicbq.mongodb.net/?retryWrites=true&w=majority'
+var mongoDBURL = 'mongodb+srv://' + process.env.DB_USERNAME + ':' + process.env.DB_PASSWORD + '@cluster0.dkuc0.mongodb.net/mern-ecommerce'
 // const URL = 'mongodb+srv://username:password@cluster0.fl5q26q.mongodb.net/?retryWrites=true&w=majority'
 
 mongoose.connect(mongoDBURL , {useUnifiedTopology:true , useNewUrlParser:true})
