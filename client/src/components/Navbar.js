@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutUser } from "../actions/userActions";
+import logo from '../ecommercelogo.png'; // with import
 export default function Navbar() {
   const cartreducer = useSelector((state) => state.cartReducer);
 
@@ -14,7 +15,8 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg">
         <a className="navbar-brand" href="/">
-          ECOMMERCE STORE
+          <img src={logo} width="40" height="40"/> &nbsp;
+          E-COMMERCE STORE
         </a>
         <button
           className="navbar-toggler"

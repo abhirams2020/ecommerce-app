@@ -18,7 +18,7 @@ export default function Filter() {
               setsearchkey(e.target.value);
             }}
             type="text"
-            placeholder="search products"
+            placeholder="Search Products"
             className="form-control"
           />
         </div>
@@ -32,7 +32,7 @@ export default function Filter() {
             }}
           >
             <option value="popular">Popular</option>
-            <option value="htl">high to Low</option>
+            <option value="htl">High to Low</option>
             <option value="lth">Low To High</option>
           </select>
         </div>
@@ -47,7 +47,7 @@ export default function Filter() {
           >
             <option value="all">All</option>
             <option value="electronics">Electronics</option>
-            <option value="fashion">fashion</option>
+            <option value="fashion">Fashion</option>
             <option value="mobiles">Mobiles</option>
             <option value="games">Games</option>
           </select>

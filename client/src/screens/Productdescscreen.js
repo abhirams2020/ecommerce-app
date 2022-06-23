@@ -46,7 +46,7 @@ export default function Productdescscreen({ match }) {
           <div className="col-md-6 text-left">
             <div className="m-2 shadow p-3 mb-5 bg-white rounded">
               <h1>
-                <b>Price : {product.price}</b>
+                <b>Price : Rs {product.price}</b>
               </h1>
 
               <hr />
