@@ -55,7 +55,7 @@ export default function Loginscreen() {
            
             <input
               type="text"
-              placeholder="email"
+              placeholder="email (sample : admin@gmail.com)"
               className="form-control"
               value={email}
               required
@@ -66,7 +66,7 @@ export default function Loginscreen() {
 
             <input
               type="password"
-              placeholder="password"
+              placeholder="password (sample : password123)"
               className="form-control"
               value={password}
               required
