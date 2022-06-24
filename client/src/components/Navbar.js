@@ -58,14 +58,14 @@ export default function Navbar() {
                     Orders
                   </a>
                   <li className="dropdown-item" onClick={()=>{dispatch(logoutUser())}}>
-                    Logout <i class="fas fa-sign-out-alt"></i>
+                    Log Out <i class="fas fa-sign-out-alt"></i>
                   </li>
                 </div>
               </div>
             ) : (
               <li className="nav-item">
                 <a className="nav-link" href="/login">
-                  Login
+                  Log In
                 </a>
               </li>
             )}
