@@ -91,7 +91,7 @@ export const addProductReview = (review , productid)=>(dispatch , getState)=>{
   axios.post('/api/products/addreview' , {review , productid , currentUser}).then(res=>{
     console.log(res);
     dispatch({type:'ADD_PRODUCT_REVIEW_SUCCESS'})
-    alert('Your review submitted successfully')
+    // alert('Your review submitted successfully')
     window.location.reload()
 
   }).catch(err=>{
@@ -111,7 +111,7 @@ export const deleteProduct=(productid)=>dispatch=>{
   axios.post('/api/products/deleteproduct' , {productid}).then(res=>{
 
     dispatch({type:'DELETE_PRODUCT_SUCCESS' , payload : res.data})
-    alert('Product deleted successfully')
+    // alert('Product deleted successfully')
     window.location.reload()
 
 
